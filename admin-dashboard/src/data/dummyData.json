@@ -1,0 +1,43 @@
+{
+  "orders": [
+    {
+      "id": 1,
+      "category": "Electronics",
+      "verification": "Pending",
+      "pending": 5,
+      "dispatched": 10
+    },
+    {
+      "id": 2,
+      "category": "Clothing",
+      "verification": "Verified",
+      "pending": 2,
+      "dispatched": 8
+    },
+    {
+      "id": 3,
+      "category": "Home Appliances",
+      "verification": "Pending",
+      "pending": 3,
+      "dispatched": 5
+    },
+    {
+      "id": 4,
+      "category": "Books",
+      "verification": "Verified",
+      "pending": 0,
+      "dispatched": 12
+    },
+    {
+      "id": 5,
+      "category": "Toys",
+      "verification": "Pending",
+      "pending": 1,
+      "dispatched": 4
+    }
+  ],
+  "totalOrders": 30,
+  "totalPendingOrders": 11,
+  "totalDispatched": 39,
+  "yearlyDetails": "Yearly details are available"
+}
