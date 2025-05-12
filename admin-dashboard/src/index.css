@@ -1,0 +1,41 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    @apply bg-white text-gray-800;
+}
+
+.sidebar {
+    @apply bg-blue-600 text-white h-full w-64;
+}
+
+.card {
+    @apply bg-white shadow-md rounded-lg p-4 m-4;
+}
+
+.table {
+    @apply min-w-full bg-white;
+}
+
+.table th, .table td {
+    @apply border px-4 py-2;
+}
+
+.progress-bar {
+    @apply h-2 bg-blue-500 rounded;
+}
+
+.notification-badge {
+    @apply bg-red-500 text-white rounded-full px-2;
+}
+
+.calendar {
+    @apply bg-white shadow-md rounded-lg p-4 m-4;
+}
+
+@media (max-width: 768px) {
+    .sidebar {
+        @apply w-16;
+    }
+}
